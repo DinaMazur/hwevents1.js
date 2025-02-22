@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+
+    <button data-action="open-modal">Modal window</button>
+
+    <div class="beckgdrop" data-action="modal">
+        <div class="modal-box">
+            <h2>Це модальне вікно!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quam perspiciatis eligendi similique
+                corrupti amet quas? Aperiam, delectus ex nam doloremque voluptatum dicta omnis a totam ea dolor saepe
+                nulla.</p>
+            <button data-action="close-modal">Закрити</button>
+        </div>
+    </div>
+
+
+
+    <form>
+        <p>Choose a color:</p>
+        <label>
+            <input type="radio" name="color" value="red" checked />
+            Red
+        </label>
+        <label>
+            <input type="radio" name="color" value="white" />
+            White
+        </label>
+        <label>
+            <input type="radio" name="color" value="green" />
+            Green
+        </label>
+    </form>
+
+
+    <input type="text" id="name-input" placeholder="Введіть текст" maxlength="6">
+    <span id="name-output">незнайомець</span>
+
+
+
+    <input type="range" min="10" max="100" value="16" class="Bigger-text">
+    <span class="normal-text">Абракадабра</span>
+
+
+    
+    <script src="./js/eventss.js"></script>
+</body>
+
+</html>

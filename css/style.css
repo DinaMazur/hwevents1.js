@@ -1,0 +1,36 @@
+
+.beckgdrop {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+    margin: 15% auto;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+   }
+   
+   #validation-input.valid {
+    border-color: #4caf50;
+   }
+   
+   #validation-input.invalid {
+    border-color: #f44336;
+   }
